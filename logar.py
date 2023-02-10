@@ -30,7 +30,7 @@ pass_elemt.send_keys(f"{senha}")
 pass_elemt.send_keys(Keys.RETURN)
 #Houve a nescessidade do sleep() para esperar a tela de carregamento do google
 sleep(10)
-
+'''''
 # Encontrar os campos de email e senha na página
 
 password_elem = driver.find_element_by_name("password")
@@ -41,3 +41,5 @@ password_elem.send_keys("Principe13*")
 
 # Enviar o formulário de login
 password_elem.send_keys(Keys.RETURN)
+'''''
+#Comentado por estar duplicado

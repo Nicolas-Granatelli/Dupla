@@ -5,8 +5,9 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-email = input("Qual é seu e-mail? ")
-senha = input("Qual é sua senha de email? ")
+
+email = input("Qual é o seu e-mail? ")
+senha = input("Qual é a sua senha de email? ")
 #Abrindo o driver do chrome para abrir o navegador
 driver = webdriver.Chrome()
 
@@ -44,4 +45,5 @@ password_elem.send_keys(Keys.RETURN)
 '''''
 #Comentado por estar duplicado
 
-print("Sua conta foi cadastrada com sucesso")
+print("Sua conta foi cadastrada com sucesso. Parabéns")
+print("Você gostaria de receber notificações por e-mail? S/n")

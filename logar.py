@@ -43,3 +43,5 @@ password_elem.send_keys("Principe13*")
 password_elem.send_keys(Keys.RETURN)
 '''''
 #Comentado por estar duplicado
+
+print("Sua conta foi cadastrada com sucesso")

@@ -28,7 +28,8 @@ sleep(10)
 pass_elemt = driver.find_element(By.CLASS_NAME,"whsOnd.zHQkBf")
 pass_elemt.send_keys(f"{senha}")
 pass_elemt.send_keys(Keys.RETURN)
-sleep(1000)
+#Houve a nescessidade do sleep() para esperar a tela de carregamento do google
+sleep(10)
 
 # Encontrar os campos de email e senha na página
 
